@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Çıktıyı ES6'ya çevirecek
+    "module": "commonjs", // Modülleri CommonJS olarak ayarlayacak
+    "strict": true, // Sıkı tip kontrolü yapacak
+    "esModuleInterop": true, // ES modüllerini uyumlu hale getirecek
+    "skipLibCheck": true, // Kütüphane kontrolünü atlayacak
+    "forceConsistentCasingInFileNames": true, // Dosya ismi büyük-küçük harf uyumunu zorunlu tutacak
+    "outDir": "./dist" // Derleme sonucu dosyalar dist klasörüne çıkacak
+  },
+  "include": ["src/**/*"], // src klasöründeki tüm TypeScript dosyalarını dahil et
+  "exclude": ["node_modules"] // node_modules klasörünü hariç tutacak
+}
